@@ -3,15 +3,24 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "cd android && ./gradlew clean && cd.. && react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clean-nm": "rimraf node_modules && yarn install",
+    "make-bundle": "./gradlew clean && ./gradlew bundleRelease",
+    "uninstall": "adb uninstall com.reactnavigation"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^6.2.0",
+    "@react-native-firebase/auth": "^6.2.0",
+    "@react-native-firebase/firestore": "^6.2.0",
+    "native-base": "^2.13.8",
+    "paper": "^0.12.3",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "^0.61.5",
+    "react-native-paper": "^3.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
