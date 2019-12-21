@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "android": "cd android && ./gradlew clean && cd.. && react-native run-android",
+    "run-android": "yarn uninstall && yarn android || yarn android",
+    "clean-run-android": "yarn clean-nm && yarn run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
     "clean-nm": "rimraf node_modules && yarn install",
     "make-bundle": "./gradlew clean && ./gradlew bundleRelease",
-    "uninstall": "adb uninstall com.reactnavigation"
+    "uninstall": "adb uninstall com.firebase.module"
   },
   "dependencies": {
     "@react-native-firebase/app": "^6.2.0",
