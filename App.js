@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
+import Navigation from './js/Navigation';
 
 export default class App extends Component {
   constructor(props) {
@@ -9,8 +10,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <View>
-        <Text> App </Text>
+      <View style={{ flex: 1 }}>
+        <Navigation />
       </View>
     );
   }
