@@ -10,7 +10,7 @@ export default class index extends Component {
     firebase
       .auth()
       .signInWithEmailAndPassword(this.state.email, this.state.password)
-      .then(data => console.log(data))
+      .then(data => alert(JSON.stringify(data)))
       .catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
@@ -57,7 +57,7 @@ export default class index extends Component {
             backgroundColor: 'rgba(52, 52, 52, 0.1)',
           }}
           onPress={this.handleSingIn}>
-          <Text>Sing In</Text>
+          <Text>Sign In</Text>
         </TouchableRipple>
 
         <TouchableRipple
@@ -73,7 +73,7 @@ export default class index extends Component {
             backgroundColor: 'rgba(52, 52, 52, 0.1)',
           }}
           onPress={this.handleSingUp}>
-          <Text>Sing Up</Text>
+          <Text>Sign Up</Text>
         </TouchableRipple>
       </View>
     );
