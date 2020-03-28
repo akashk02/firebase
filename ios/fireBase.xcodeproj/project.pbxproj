@@ -185,11 +185,7 @@
 				00E356EF1AD99517003FC87E /* fireBaseTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-<<<<<<< HEAD
-				68E93E7DF36E4FD4B8075800 /* Resources */,
-=======
 				A6F4C733D974AAA29797CA68 /* Pods */,
->>>>>>> 5c44f61f9310bfa983a5678d14146b9c08adbca0
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -207,34 +203,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		68E93E7DF36E4FD4B8075800 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				457D7295D51D42A587DE0ECB /* AntDesign.ttf */,
-				2F962ED1C3304D5F92C272FB /* Entypo.ttf */,
-				D56349011F63445994AE9597 /* EvilIcons.ttf */,
-				D50BAA593C2448B6B87C5632 /* Feather.ttf */,
-				EB659EE4EDE84C6C8D7BAA76 /* FontAwesome.ttf */,
-				43444B2D369D4262B38E01B3 /* FontAwesome5_Brands.ttf */,
-				4981C3E9EDF4458DA5F6F7A7 /* FontAwesome5_Regular.ttf */,
-				157B873B26FE4E348295F79A /* FontAwesome5_Solid.ttf */,
-				9D785A580B544443A6D2CE9D /* Fontisto.ttf */,
-				7AB8F940EDAC40F182C0184B /* Foundation.ttf */,
-				32C3154196454688AE34AD4F /* Ionicons.ttf */,
-				962DBF3540D348DC9E5EDE2C /* MaterialCommunityIcons.ttf */,
-				D41E9D8BEAC9489E9C70A1D8 /* MaterialIcons.ttf */,
-				DEA7ACC8B3D6483E89CAEFDB /* Octicons.ttf */,
-				2E72946F2A1F46DEB4E62777 /* Roboto_medium.ttf */,
-				B8DB162DF01641D0BF86009E /* Roboto.ttf */,
-				90DD6DED47834EA1951AF321 /* rubicon-icon-font.ttf */,
-				DFFB68AE2A4142DA8006CA9B /* SimpleLineIcons.ttf */,
-				22DAA22564F641B696241DA4 /* Zocial.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-=======
 		A6F4C733D974AAA29797CA68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,7 +217,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
->>>>>>> 5c44f61f9310bfa983a5678d14146b9c08adbca0
 		};
 /* End PBXGroup section */
 
@@ -394,29 +361,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-<<<<<<< HEAD
-				9E5B2569D054404ABC5CC0B0 /* AntDesign.ttf in Resources */,
-				097AE5B2F07F402887B42EB7 /* Entypo.ttf in Resources */,
-				D1AC65B4212842BF8D475DBB /* EvilIcons.ttf in Resources */,
-				9D42B84631284FA98A7A2B58 /* Feather.ttf in Resources */,
-				43B4BA14C65D4C758F6BDC08 /* FontAwesome.ttf in Resources */,
-				6726AA637D1F4FEC9221C908 /* FontAwesome5_Brands.ttf in Resources */,
-				1DED2DD9AA394A48B8FDAF9D /* FontAwesome5_Regular.ttf in Resources */,
-				220653E2AB174411B387378E /* FontAwesome5_Solid.ttf in Resources */,
-				1EE5B2505C0E4DDBAAD05A61 /* Fontisto.ttf in Resources */,
-				AF6389F63ABB41868B42F736 /* Foundation.ttf in Resources */,
-				DBF37A2C7E364E2A89BCA317 /* Ionicons.ttf in Resources */,
-				DF048BE7B0D5490E94D5064D /* MaterialCommunityIcons.ttf in Resources */,
-				11CC5133301E456BB7A38ADD /* MaterialIcons.ttf in Resources */,
-				2013C36B2E404284B868550D /* Octicons.ttf in Resources */,
-				9F503F4DB0794F81B6866056 /* Roboto_medium.ttf in Resources */,
-				1D7E9E194DB647F8AEFB4CC4 /* Roboto.ttf in Resources */,
-				2F6CCC62048A4B1DAFD29A67 /* rubicon-icon-font.ttf in Resources */,
-				B19F4203BCAC4EE786BFF6CE /* SimpleLineIcons.ttf in Resources */,
-				6338455B3F7F41ABBB091AAF /* Zocial.ttf in Resources */,
-=======
 				A9B0F14B23B4D7840097EF72 /* GoogleService-Info.plist in Resources */,
->>>>>>> 5c44f61f9310bfa983a5678d14146b9c08adbca0
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
