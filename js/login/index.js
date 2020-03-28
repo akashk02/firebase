@@ -5,7 +5,7 @@ import { TextInput, TouchableRipple } from 'react-native-paper';
 
 export default class index extends Component {
   state = { email: '', password: '' };
-
+  //new codeß
   handleSingIn = () => {
     firebase
       .auth()
